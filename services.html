@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/app.css"> <!-- Keep your existing stylesheet link if needed -->
+    <link rel="stylesheet" href="dist/css/nav-bar.css"> <!-- Link the new external stylesheet -->
+    <link rel="stylesheet" href="dist/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5134f85b78.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="dist/img/Besnik.svg">
+    <title>Intellihire-Info</title>
+</head>
+
+<body style="background-color: #AED6F1;">
+    <header style="background-color: #2471A3;">
+        <nav class="navbar">
+            <div class="flex-none">
+                <img src="dist/img/intellihire-logo.png" alt="Intellihire Logo">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="documents.html">Documentation</a>
+                <a href="about-us.html">About Us</a>
+            </div>
+
+            <div class="nav-actions ml-auto inline-flex flex-row">
+                <button class="nav-button hidden md:block">Sign up for a trial</button>
+                <button class="nav-button"><a href="purchase.html">Purchase</a></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <br>
+            <div class="line-with-text">
+                <div class="line"></div>
+                <h4 id="text" class="font-semibold text-3xl pt-2.5">Our Services</h4>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <section id="service-container" class="col-md-6 cv-ranking">
+                    <h2 class="cv-sub-heading">CV ANALYSIS AND JOB DESCRIPTION MATCHING</h2>
+                    <p>The CV analysis and job description matching feature streamlines the recruitment process by
+                        thoroughly analyzing candidate CVs, identifying key information and evaluating their alignment
+                        with job requirements. It intelligently matches keywords and assesses skill proficiency,
+                        automatically ranking candidates for suitability.</p>
+                    <img class="section-image" src="dist/img/cv-ranking.jpg" alt="CV Analysis Image">
+                </section>
+                <section id="service-container" class="col-md-6 transcript">
+                    <h2 class="at-sub-heading">ACADEMIC TRANSCRIPT ANALYSIS</h2>
+                    <p>The Academic Transcript Skills Identification feature is a tool that scans academic transcripts
+                        to extract and categorize skills and competencies acquired during a candidate's education. It
+                        offers a visually engaging representation of the candidate's skills, maps skills to job roles,
+                        and highlights any skill gaps, aiding recruiters in recognizing a candidate's potential skill
+                        areas.</p>
+                    <img class="section-image-2" src="dist/img/academic-transcript.jpg" alt="Academic Transcript Image">
+                </section>
+            </div>
+            <div class="row">
+                <section id="service-container" class="col-md-6 prof-skills">
+                    <h2 class="prof-skills-sub-heading">PROFESSIONAL SKILLS ANALYSIS</h2>
+                    <p>This service evaluates information from platforms like GitHub and LinkedIn, along with referee
+                        feedbacks, to gain a comprehensive understanding of candidates' skills and proficiencies.</p>
+                    <img class="section-image" src="dist/img/prof-skills.jpg" alt="Professional Skills Image">
+                </section>
+                <section id="service-container" class="col-md-6 personality">
+                    <h2 class="personality-sub-heading">PERSONALITY ASSESSMENT</h2>
+                    <p>
+                        The Personality Assessment feature is used to assess the suitability of the candidate for the
+                        job. This is done by evaluating a candidate's Big Five personality traits and then analyzing how
+                        well these traits align with the personality traits needed for the specific job role they are
+                        applying for.</p>
+                    <img class="section-image" src="dist/img/personality.PNG" alt="Personality Assessment Image">
+                </section>
+            </div>
+            <br>
+        </div>
+    </main>
+</body>
+<footer id="footer" style="background-color: #2471A3; color: white; padding: 20px;">
+    <div class="footer-content" style="display: flex; justify-content: space-between;">
+        <div class="footer-column" id="footer-desc">
+            <p>Intellihire strives to empower HR professionals and recruiters of the future by offering innovative
+                solutions. We specialize in transforming the hiring landscape through smart technology, AI-driven
+                assessments, and seamless integrations. Join us to reshape the way you hire, embracing a future where
+                hiring complexities are a thing of the past.</p>
+        </div>
+        <div class="footer-column" id="footer-links">
+            <h4 class="quick-links"><b>QUICK LINKS</b></h4>
+            <ul class="footer-links">
+                <li id="link"><a href="about-us.html">About Us</a></li>
+                <li id="link">Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-social">
+        <h4><b>Follow Us</b></h4>
+        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="copyright">
+        <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by Intellihire.</p>
+    </div>
+</footer>
+
+</html>

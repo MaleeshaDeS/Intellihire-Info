@@ -1,0 +1,397 @@
+#service-box {
+    border: 1px solid #000000; /* Add your desired border color and width */
+    border-radius: 10px; /* Adjust the border-radius for rounded corners */
+    padding: 10px; /* Add some padding to the boxes for better spacing */
+    transition: transform 0.2s; /* Smooth transition on hover */
+    width: 250px;
+    height: 200px;
+    margin-left: 50px;
+
+    /* Style for when hovering */
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+#service-box-img{
+    width: 70px;
+    height: 70px;
+}
+
+#home-img{
+    width: 950px;
+    height: 500px;
+}
+
+.home-info{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.home-desc{
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the buttons */
+    font-size:37px;
+    font-weight: 700;
+    color: #000336;
+    text-align: justify;
+}
+
+.overview-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.full-details-button {
+    background-color: #FFC300;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the buttons */
+    width: 250px;
+    height: auto;
+    font-size: 18x;
+}
+
+.full-details-button:hover{
+    background-color:#03D17A;
+    color: black;
+}
+
+.demo-button{
+    background-color: #FFC300;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the buttons */
+    font-size: 18px;
+    font-weight: 700;
+    width: 425px;
+    height: 60px;
+    /* margin-left: 125px; */
+}
+
+.demo-button:hover{
+    background-color:#03D17A;
+    color: black;
+}
+
+
+/* footer */
+#footer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.footer-column,
+.footer-social,
+.copyright{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.social-icon:hover{
+    color: #03D17A;
+}
+
+#link:hover{
+    color: #03D17A;
+}
+
+#footer-desc{
+    width: 1000px;
+}
+
+#footer-links{
+    width: 200px;
+}
+
+.social-icon{
+    padding: 10px;
+    font-size: 24px;
+}
+
+/* footer */
+
+/* services */
+.section-image{
+    width: 450px;
+    height: 300px;
+}
+
+.section-image-2{
+    width: 375px;
+    height: 300px;
+}
+
+.cv-ranking,
+.transcript,
+.prof-skills,
+.personality {
+    background-color: #f7f7f7; /* Background color */
+    border: 3px solid #00195F; /* Border style and color */
+    border-radius: 10px; /* Rounded corners */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px; /* Padding inside the containers */
+    margin-top: 30px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+/* Style for section headings */
+.cv-ranking h2,
+.transcript h2,
+.prof-skills h2,
+.personality h2 {
+    font-size: 24px; /* Heading font size */
+    color: #333; /* Heading text color */
+    margin-bottom: 10px; /* Spacing below headings */
+}
+
+/* Style for section text */
+.cv-ranking p,
+.transcript p,
+.prof-skills p,
+.personality p {
+    font-size: 16px; /* Text font size */
+    color: #666; /* Text color */
+}
+
+/* Style for section images */
+.section-image,
+.section-image-2 {
+    max-width: 100%; /* Make sure images don't exceed container width */
+    border-radius: 5px; /* Add a slight border radius to images */
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+  }
+  .line {
+    flex-grow: 1;
+    border-top: 3px solid #00195F;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #text {
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #00195F ;
+  }
+
+.cv-sub-heading{
+    margin-left: 350px;
+    font-weight:600;
+}
+
+.at-sub-heading{
+    margin-left: 450px;
+    font-weight:600;
+}
+
+.prof-skills-sub-heading{
+    margin-left: 450px;
+    font-weight:600;
+}
+
+.personality-sub-heading{
+    margin-left: 500px;
+    font-weight:600;
+}
+
+#service-container{
+    background-color: white;
+}
+
+#service-container p{
+    color: black;
+    font-size: 17px;
+}
+
+.section-image{
+    margin-left: 400px;
+}
+
+.section-image-2{
+    margin-left: 450px;
+}
+
+/* about-us */
+.about-us-desc{
+    font-family: 'Poppins', sans-serif;
+}
+
+.team-images-container {
+    display: flex;
+    justify-content: space-around; /* Adjust this for spacing */
+    align-items: center; /* Center vertically if needed */
+    
+}
+
+.team-image {
+    max-width: 200px; /* Adjust image size as needed */
+    height: 200px;
+    display: flex;
+    margin-left: 20px;
+    border-radius: 50%; /* Make the image circular */
+    overflow: hidden; /* Hide the overflow content to make it circular */
+}
+
+#about-us-container{
+    margin-left: 100px; 
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right:50px;
+    padding-left:50px;
+    border: 2px solid #00195F; /* Border style and color */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    background-color: white;
+}
+
+#meet-the-team{
+    font-family: 'Poppins', sans-serif;
+    color: #00195F ;
+}
+
+.team-name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+/* purchase */
+.container {
+    display: flex; /* Display its children side by side */
+    justify-content: space-between; /* Add space between the two sections */
+}
+
+/* Style for the "purchase-container" sections */
+.purchase-container {
+    flex-basis: calc(50% - 10px); /* 50% width for each section with some spacing */
+    margin-right: 10px; /* Adjust the margin between sections */
+}
+
+/* Ensure they wrap to a new line on smaller screens if necessary */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sections on top of each other on small screens */
+    }
+    .purchase-container {
+        margin-right: 0; /* Remove margin for stacking on small screens */
+    }
+}
+
+.purchase-container{
+    margin-left: 100px; 
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-right:50px;
+    padding-left:50px;
+    border: 2px solid #00195F; /* Border style and color */
+    border-radius: 10px; /* Rounded corners */
+    text-align: justify;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.prices{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.price-line {
+    flex-grow: 1;
+    border-top: 3px solid #00195F;
+}
+
+.get-now-button {
+    background-color: #03D17A;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin-left: 115px;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the buttons */
+    width: 150px;
+}
+
+.get-now-button:hover{
+    background-color:#FFC300;
+    color: black;
+}
+
+.feature-list {
+    list-style-type: disc; /* Use disc style for bullet points */
+    margin-left: 20px; /* Add some left margin to indent the list */
+}
+
+/* Optionally, you can style the list items further */
+.feature-list li {
+    margin-bottom: 5px; /* Add some space between list items */
+}
+
+.purchase-img{
+    width: 500px;
+    height: auto;
+    margin-left: 425px;
+}
+
+/* documents */
+.docs-container{
+    height: 500px;
+    width: 350px;
+    margin-left: 40px; 
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-right:20px;
+    padding-left:20px;
+    border: 2px solid #00195F; /* Border style and color */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.doc-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif; /* Apply Poppins font to the buttons */
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+#proposal-reports{
+    background-color: #03D17A;
+}
+
+#final-reports{
+    background-color: #FFC300;
+}
+
+#research-papers{
+    background-color: #A7B7AE;
+}
+
