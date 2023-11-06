@@ -190,22 +190,22 @@
   }
 
 .cv-sub-heading{
-    margin-left: 350px;
+    text-align: center;
     font-weight:600;
 }
 
 .at-sub-heading{
-    margin-left: 450px;
+    text-align: center;
     font-weight:600;
 }
 
 .prof-skills-sub-heading{
-    margin-left: 450px;
+    text-align: center;
     font-weight:600;
 }
 
 .personality-sub-heading{
-    margin-left: 500px;
+    text-align: center;
     font-weight:600;
 }
 
