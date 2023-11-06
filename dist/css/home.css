@@ -219,11 +219,11 @@
 }
 
 .section-image{
-    margin-left: 400px;
+    margin-left: 250px;
 }
 
 .section-image-2{
-    margin-left: 450px;
+    margin-left: 300px;
 }
 
 /* about-us */
@@ -279,7 +279,7 @@
     border-radius: 10px; /* Rounded corners */
     text-align: center;
     background-color: white;
-    height: 540px;
+    height: 580px;
 }
 
 #meet-the-team{
@@ -415,7 +415,7 @@
 .icac-img-1{
     width: 300px;
     height: auto;
-    margin-left: 100px;
+    margin-left: 20px;
     border: 2px solid black; 
 
   
@@ -424,7 +424,7 @@
 .icac-img-2{
     width: 500px;
     height: auto;
-    margin-right: 100px;
+    margin-left: 20px;
 }
     
 
